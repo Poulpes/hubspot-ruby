@@ -20,7 +20,8 @@ require 'hubspot/deprecator'
 require 'hubspot/owner'
 require 'hubspot/engagement'
 require 'hubspot/subscription'
-require 'hubspot/oauth'
+# COMMENTED THIS CLASS BECAUSE OF CONFLICT WITH hubspot-api-client gem
+# require 'hubspot/oauth'
 require 'hubspot/file'
 
 module Hubspot
